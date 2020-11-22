@@ -128,7 +128,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-service-qti \
     libbatching \
     libgeofencing \
-    libgnss
+    libgnss \
+    libjson
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/gps/etc/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -428,6 +429,7 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libqdMetaData.vendor \
     libwfdaac_vendor \
+    libdisplayconfig.qti \
     vendor.display.config@2.0
 
 PRODUCT_BOOT_JARS += \
