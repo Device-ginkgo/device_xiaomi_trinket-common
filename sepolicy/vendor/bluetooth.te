@@ -1,0 +1,9 @@
+allow bluetooth incremental_prop:file { read };
+allow bluetooth incremental_prop:file { open };
+allow bluetooth incremental_prop:file { getattr };
+allow bluetooth incremental_prop:file { map };
+allow bluetooth proc_filesystems:file { read };
+allow bluetooth proc_filesystems:file { open };
+allow bluetooth proc_filesystems:file { getattr };
+
+
